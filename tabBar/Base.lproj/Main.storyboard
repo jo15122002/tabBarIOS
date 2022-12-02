@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Collection View Controller-->
+        <!--CollecView-->
         <scene sceneID="SJI-K0-eeD">
             <objects>
                 <viewController id="MOl-r0-hKP" customClass="CollectionViewController" customModule="tabBar" customModuleProvider="target" sceneMemberID="viewController">
@@ -45,7 +45,7 @@
                         <viewLayoutGuide key="safeArea" id="S1A-wK-ME0"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="a8e-Zd-nRS"/>
+                    <navigationItem key="navigationItem" title="CollecView" id="a8e-Zd-nRS"/>
                     <connections>
                         <outlet property="collecView" destination="axD-EG-ZoC" id="xAf-rf-jgc"/>
                     </connections>
@@ -54,7 +54,7 @@
             </objects>
             <point key="canvasLocation" x="2886.2595419847326" y="3.5211267605633805"/>
         </scene>
-        <!--View Controller-->
+        <!--CollecViewDetails-->
         <scene sceneID="yNB-zI-97y">
             <objects>
                 <viewController id="LFs-zz-O62" sceneMemberID="viewController">
@@ -73,13 +73,13 @@
                         <viewLayoutGuide key="safeArea" id="bT3-V1-DAk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="tlv-qd-GEq"/>
+                    <navigationItem key="navigationItem" title="CollecViewDetails" id="tlv-qd-GEq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="llm-hI-B2i" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3807" y="13"/>
         </scene>
-        <!--Table View Controller-->
+        <!--TableView-->
         <scene sceneID="SDa-JQ-vuV">
             <objects>
                 <viewController id="YYE-wp-bbT" customClass="TableViewController" customModule="tabBar" customModuleProvider="target" sceneMemberID="viewController">
@@ -115,7 +115,7 @@
                         <viewLayoutGuide key="safeArea" id="zY3-Ps-4ck"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="FV4-WW-UY0"/>
+                    <navigationItem key="navigationItem" title="TableView" id="FV4-WW-UY0"/>
                     <connections>
                         <outlet property="tableView" destination="954-iY-UD3" id="gKU-VH-8ie"/>
                     </connections>
@@ -124,7 +124,7 @@
             </objects>
             <point key="canvasLocation" x="2886.2595419847326" y="-644.36619718309862"/>
         </scene>
-        <!--View Controller-->
+        <!--TableViewDetails-->
         <scene sceneID="icE-fH-9Ws">
             <objects>
                 <viewController id="ReN-jh-1CN" sceneMemberID="viewController">
@@ -143,13 +143,13 @@
                         <viewLayoutGuide key="safeArea" id="hHg-Xi-Q46"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="aT5-6P-BeJ"/>
+                    <navigationItem key="navigationItem" title="TableViewDetails" id="aT5-6P-BeJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yr4-JK-VHq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3808" y="-644"/>
         </scene>
-        <!--Item-->
+        <!--Pong-->
         <scene sceneID="86l-fl-XcG">
             <objects>
                 <viewController id="N6i-lQ-VE6" customClass="GameViewController" customModule="tabBar" customModuleProvider="target" sceneMemberID="viewController">
@@ -181,7 +181,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQp-E7-JfD">
-                                <rect key="frame" x="20" y="771" width="87" height="31"/>
+                                <rect key="frame" x="20" y="700" width="87" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Gauche"/>
@@ -190,7 +190,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7u-nx-4EG">
-                                <rect key="frame" x="324" y="771" width="75" height="31"/>
+                                <rect key="frame" x="324" y="700" width="75" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Droite"/>
@@ -214,7 +214,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z6F-g0-dxl">
-                                <rect key="frame" x="0.0" y="870" width="414" height="25"/>
+                                <rect key="frame" x="0.0" y="826" width="414" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
@@ -238,7 +238,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FS9-aZ-hjX">
-                                <rect key="frame" x="141" y="790" width="132" height="28"/>
+                                <rect key="frame" x="141" y="730" width="132" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
                             </view>
@@ -246,7 +246,7 @@
                         <viewLayoutGuide key="safeArea" id="HOu-8h-2bj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="PiL-vb-bvM"/>
+                    <tabBarItem key="tabBarItem" title="Pong" image="gamecontroller" catalog="system" id="PiL-vb-bvM"/>
                     <connections>
                         <outlet property="ball" destination="HCF-kQ-jZI" id="Fu0-Sm-OYe"/>
                         <outlet property="goalPlayerOne" destination="Z6F-g0-dxl" id="6Yb-TE-kPH"/>
@@ -282,11 +282,11 @@
             </objects>
             <point key="canvasLocation" x="1032.824427480916" y="12.67605633802817"/>
         </scene>
-        <!--Item-->
+        <!--TableView-->
         <scene sceneID="gFV-bz-BRx">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jSk-xb-ZPM" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="49S-Jh-O7W"/>
+                    <tabBarItem key="tabBarItem" title="TableView" image="list.bullet" catalog="system" id="49S-Jh-O7W"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="avc-uU-Q4u">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -301,11 +301,11 @@
             </objects>
             <point key="canvasLocation" x="1959.5419847328244" y="-644.36619718309862"/>
         </scene>
-        <!--Item-->
+        <!--CollectionView-->
         <scene sceneID="zDe-d8-nFR">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CLq-EO-lT8" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="TT5-51-3bN"/>
+                    <tabBarItem key="tabBarItem" title="CollectionView" image="table" catalog="system" id="TT5-51-3bN"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Xlu-y1-DOK">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -322,6 +322,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="gamecontroller" catalog="system" width="128" height="79"/>
+        <image name="list.bullet" catalog="system" width="128" height="87"/>
+        <image name="table" catalog="system" width="128" height="93"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
