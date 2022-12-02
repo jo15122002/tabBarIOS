@@ -20,6 +20,7 @@
 		EDDCCF702939E6780034AAEF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDCCF6F2939E6780034AAEF /* TableViewCell.swift */; };
 		EDDCCF722939E84E0034AAEF /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDDCCF712939E84E0034AAEF /* HeaderView.xib */; };
 		EDDCCF752939E9830034AAEF /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDCCF742939E9830034AAEF /* CollectionViewController.swift */; };
+		EDDCCF782939EB7E0034AAEF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDCCF772939EB7E0034AAEF /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		EDDCCF6F2939E6780034AAEF /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		EDDCCF712939E84E0034AAEF /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		EDDCCF742939E9830034AAEF /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		EDDCCF772939EB7E0034AAEF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		EDDCCF392939E4120034AAEF /* tabBar */ = {
 			isa = PBXGroup;
 			children = (
+				EDDCCF762939EAE50034AAEF /* Pong */,
 				EDDCCF732939E9360034AAEF /* CollectionView */,
 				EDDCCF6C2939E5F90034AAEF /* tableView */,
 				EDDCCF3A2939E4120034AAEF /* AppDelegate.swift */,
@@ -153,6 +156,14 @@
 				EDDCCF742939E9830034AAEF /* CollectionViewController.swift */,
 			);
 			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		EDDCCF762939EAE50034AAEF /* Pong */ = {
+			isa = PBXGroup;
+			children = (
+				EDDCCF772939EB7E0034AAEF /* GameViewController.swift */,
+			);
+			path = Pong;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDDCCF782939EB7E0034AAEF /* GameViewController.swift in Sources */,
 				EDDCCF752939E9830034AAEF /* CollectionViewController.swift in Sources */,
 				EDDCCF702939E6780034AAEF /* TableViewCell.swift in Sources */,
 				EDDCCF3F2939E4120034AAEF /* ViewController.swift in Sources */,
